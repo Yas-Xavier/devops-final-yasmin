@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "devops-final-yasmin",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
