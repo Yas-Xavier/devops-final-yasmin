@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "finaltesting-ba93e",
+    "finalStaging": "finalstaging-a3074",
+    "finalTesting": "finaltesting-ba93e",
+    "finalProduction": "finalproduction-55fbf"
+  },
+  "targets": {},
+  "etags": {}
+}
