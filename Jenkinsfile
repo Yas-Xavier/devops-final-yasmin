@@ -15,17 +15,17 @@ pipeline {
         }
         stage('Testing') {
             steps {
-                sh 'firebase deploy -P testing --token $FIREBASE_DEPLOY_TOKEN'
+                sh 'firebase deploy -P finalTesting --token $FIREBASE_DEPLOY_TOKEN'
             }
         }
         stage('Staging') {
             steps {
-                sh 'firebase deploy -P staging --token $FIREBASE_DEPLOY_TOKEN'
+                sh 'firebase deploy -P finalStaging --token $FIREBASE_DEPLOY_TOKEN'
             }
         }
         stage('Production') {
             steps {
-                sh 'firebase deploy -P production --token $FIREBASE_DEPLOY_TOKEN'
+                sh 'firebase deploy -P finalProduction --token $FIREBASE_DEPLOY_TOKEN'
             }
         }
     }
